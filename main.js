@@ -7,6 +7,6 @@ input.addEventListener('keydown', (e) => {
   }
 });
 
-window.addEventListener('pageshow', function () {
+window.addEventListener('pageshow', () => {
   input.value = '';
 });
